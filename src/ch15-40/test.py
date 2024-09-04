@@ -7,3 +7,8 @@ logging.info("이것은 정보 메시지입니다.")
 logging.warning("이것은 경고 메시지입니다.")
 logging.error("이것은 에러 메시지입니다.")
 logging.critical("이것은 심각한 에러 메시지입니다.")
+
+list  = [1,2,3,4]
+print(list.pop())
+list.insert(0,4)
+print(list)
